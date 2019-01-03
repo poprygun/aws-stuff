@@ -1,0 +1,13 @@
+server:
+  port: 8080
+cloud:
+  aws:
+    region:
+      static: us-east-1
+      auto: false
+    credentials:
+      access-key:
+      secret-key:
+    end-point:
+      uri: https://queue.amazonaws.com/375783000519/microsamples-sqs-queue
+
