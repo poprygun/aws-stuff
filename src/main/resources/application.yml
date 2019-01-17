@@ -2,6 +2,8 @@ server:
   port: 8080
 cloud:
   aws:
+    s3:
+      bucket: ashumilov/microsamples
     region:
       static: us-east-1
       auto: false
@@ -10,4 +12,3 @@ cloud:
       secret-key:
     end-point:
       uri: https://queue.amazonaws.com/375783000519/microsamples-sqs-queue
-
